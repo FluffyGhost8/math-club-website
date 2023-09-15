@@ -10,8 +10,10 @@ const App = () => (
   <Router>
       <Routes>
           <Route exact path='/' element={<div className="App">
+          <div className="navbar__bg">
+          <Navbar />
+          </div>
     <div className="gradient__bg">
-      <Navbar />
       <Header />
     </div>
     <WhatGPT3 />
@@ -20,8 +22,10 @@ const App = () => (
     <Footer />
   </div>} />
           <Route path='/home' element={<div className="App">
+          <div className="navbar__bg">
+          <Navbar />
+          </div>
     <div className="gradient__bg">
-      <Navbar />
       <Header />
     </div>
     <WhatGPT3 />
@@ -31,16 +35,20 @@ const App = () => (
     <Footer />
   </div>} />
           <Route path='/lectures' element={<div className="App">
+          <div className="navbar__bg">
+          <Navbar />
+          </div>
     <div className="gradient__bg">
-      <Navbar />
       <Header />
     </div>
     <Blog />
     <Footer />
   </div>} />
           <Route path='/contests' element={<div className="App">
+          <div className="navbar__bg">
+          <Navbar />
+          </div>
     <div className="gradient__bg">
-      <Navbar />
       <Header />
     </div>
     <WhatGPT3 />
@@ -48,8 +56,8 @@ const App = () => (
     <Footer />
   </div>} />
           <Route path='/about-us' element={<div className="App">
+          <Navbar />
     <div className="gradient__bg">
-      <Navbar />
       <Header />
     </div>
     <Possibility />
