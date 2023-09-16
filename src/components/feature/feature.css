@@ -45,6 +45,10 @@
     color: var(--color-text);
 }
 
+a {
+    text-decoration: underline
+  }
+
 @media screen and (max-width: 550px) {
     .gpt3__features-container__feature-title h1 {
         font-size: 14px;

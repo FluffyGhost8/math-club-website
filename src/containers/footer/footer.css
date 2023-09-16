@@ -48,6 +48,7 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0px auto;
 
     width: 100%;
     text-align: left;
@@ -64,8 +65,8 @@
 }
 
 .gpt3__footer-links_logo img {
-    width: 118px;
-    height: 30px;
+    width: 56px;
+    height: 56px;
 
     margin-bottom: 1rem;
 }

@@ -1,20 +1,18 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
+import longo from '../../assets/longo.png';
 import './footer.css';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <img src={longo} alt="msj math logo" />
+        <p>MSJ Math 2023 <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <p>Discord</p>
+        <p>Mailing List</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>

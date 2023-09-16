@@ -1,5 +1,4 @@
 import React from 'react';
-import ai from '../../assets/ai.png';
 import './header.css';
 
 const Header = () => (
@@ -8,6 +7,11 @@ const Header = () => (
       <center>
         <h2 className="white_header">Welcome to the</h2>
         <h1 className="white_header">MSJHS Math Club</h1>
+        <div className="header__button">
+          <form action="https://discord.gg/sFgfZuyThj" target="_blank">
+            <button type="submit">Join the Discord</button>
+          </form>
+        </div>
       </center>
     </div>
   </div>
