@@ -1,5 +1,6 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
+import Featureref from '../../components/feature/Featureref'
 import './whatGPT3.css';
 
 const WhatGPT3 = () => (
@@ -11,8 +12,8 @@ const WhatGPT3 = () => (
       <h4 className="gradient__text">What We Do</h4>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Lectures" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Contests" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Featureref title="Lectures" text="We have weekly lectures on Thursday during lunch in room A2. We cover several fun and informative topics. See more " link="/lectures" ltext="here." />
+      <Featureref title="Contests" text="We participate in contests such as SMT and BMT, and also host the SMMT and MMT. See more"  link="/contests" ltext="here." />
     </div>
   </div>
 );
