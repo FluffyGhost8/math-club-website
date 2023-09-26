@@ -4,6 +4,12 @@
   scroll-behavior: smooth;
 }
 
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column
+}
+
 body {
   background: var(--color-bg);
 }
@@ -40,6 +46,13 @@ a {
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.ccc {
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  margin: auto;
 }
 
 @-webkit-keyframes scale-up-center {
