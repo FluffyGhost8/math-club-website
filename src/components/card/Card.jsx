@@ -18,7 +18,7 @@ export const Card = ({
       {title && <h1 className="card-title">{title}</h1>}
       {description && <p className="card-description">{description}</p>}
       {buttonText && link && (
-        <a href={link} className="card-btn">
+        <a href={link} className="card-btn" target="_blank">
           {buttonText}
         </a>
       )}

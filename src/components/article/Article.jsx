@@ -8,10 +8,9 @@ const Article = ({ imgUrl, date, text }) => (
     </div>
     <div className="gpt3__blog-container_article-content">
       <div>
-        <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read Full Article</p>
+      <p>Read Handout</p>
     </div>
   </div>
 );
