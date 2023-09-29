@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Blog, WhatGPT3, Header } from './containers';
+import { Footer, Blog, Show, WhatGPT3, Header } from './containers';
 import { Navbar, Team } from './components';
 import { Card } from './components/card/Card'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -18,7 +18,7 @@ const App = () => (
       <Header />
     </div>
     <WhatGPT3 />
-    <Blog />
+    <Show />
     <Footer />
   </div>} />
           <Route path='/home' element={<div className="App">
@@ -29,7 +29,7 @@ const App = () => (
       <Header />
     </div>
     <WhatGPT3 />
-    <Blog />
+    <Show />
     <Footer />
   </div>} />
           <Route path='/lectures' element={<div className="App">

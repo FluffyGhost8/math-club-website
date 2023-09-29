@@ -13,7 +13,7 @@ const WhatGPT3 = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       <Featureref title="Lectures" text="We have weekly lectures on Thursday during lunch in room A2. We cover several fun and informative topics. See more " link="/lectures" ltext="here." tgt="_self" />
-      <Featureref title="Contests" text="We participate in contests such as SMT and BMT, and also host the SMMT and MMT. See more "  link="/contests" ltext="here." tgt="_self" />
+      <Featureref title="Contests" text="We participate in contests such as SMT and BMT. Additionally, we host the SMMT and MMT. See more "  link="/contests" ltext="here." tgt="_self" />
     </div>
   </div>
 );
